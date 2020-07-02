@@ -17,7 +17,5 @@ setuptools.setup(
             'nb_tensorflow_playground_serverproxy = nb_tensorflow_playground_serverproxy:setup_nb_tensorflow_playground_serverproxy',
         ]
     },
-    package_data={
-        'nb_tensorflow_playground_serverproxy': ['icons/*'],
-    },
+    include_package_data=True,
 )
