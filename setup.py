@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="nb-tensorflow-playground-serverproxy",
-    version='1.0dev',
+    version='1.0.1',
     url="https://github.com/innovationOUtside/nb_tensorflow_playground_serverproxy",
     author="Tony Hirst",
     description="tony.hirst@gmail.com",
