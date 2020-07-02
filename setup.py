@@ -7,6 +7,7 @@ setuptools.setup(
     author="Tony Hirst",
     description="tony.hirst@gmail.com",
     packages= ['nb_tensorflow_playground_serverproxy'],
+    include_package_data=True,
 	keywords=['Jupyter'],
 	classifiers=['Framework :: Jupyter'],
     install_requires=[
