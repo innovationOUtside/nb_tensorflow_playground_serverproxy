@@ -1,1 +1,1 @@
-recursive-include nb_tensorflow_playground_serverproxy/static/*
+recursive-include nb_tensorflow_playground_serverproxy/static/ *
