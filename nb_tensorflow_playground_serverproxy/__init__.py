@@ -9,8 +9,9 @@ import pkg_resources
 
 def setup_nb_tensorflow_playground_serverproxy():
     fpath = pkg_resources.resource_filename('nb_tensorflow_playground_serverproxy', 'static/')
+    #fpath = "/home/jovyan/nb_tensorflow_playground_serverproxy/static"
     return {
-        'command': ["python", "-m", "http.server", "--directory", "/home/jovyan/nb_tensorflow_playground_serverproxy/static", "{port}"],
+        'command': ["python", "-m", "http.server", "--directory", fpath, "{port}"],
         'environment': {},
         'launcher_entry': {
             'title': 'nb_tensorflow_playground_serverproxy',
