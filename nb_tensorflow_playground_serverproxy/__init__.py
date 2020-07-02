@@ -8,7 +8,7 @@ import os
 
 def setup_nb_tensorflow_playground_serverproxy():
     return {
-        'command': ["python", "-m", "http.server", "--directory", "/home/jovyan/nb_tensorflow_playground_serverproxy/tensorflow_playground", "&>", "/dev/null", "&"],
+        'command': ["python", "-m", "http.server", "--directory", "/home/jovyan/nb_tensorflow_playground_serverproxy/tensorflow_playground", "{port}"],
         'environment': {},
         'launcher_entry': {
             'title': 'nb_tensorflow_playground_serverproxy',
