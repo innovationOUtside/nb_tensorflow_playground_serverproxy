@@ -7,3 +7,5 @@ Jupyter server proxy wrapper for local [Tensorflow Playground](https://github.co
 The extension maps the [original *Tensorflow Playground* code](https://github.com/tensorflow/playground) with a simplified HTML page inside a simple Pyhton http server.
 
 ![](.images/tf_playground_nbserverproxy.png)
+
+See also: [`nb_tensorspace_server_proxy`](https://github.com/innovationOUtside/nb_tensorspace_server_proxy) which does a similar thing for a couple of smaller netwroks in the *TensorSpace Playground*.
