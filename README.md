@@ -1,4 +1,4 @@
-# nb\_tensorflow\_playground\_serverproxy\_proxy
+# nb\_tensorflow\_playground\_serverproxy
 Jupyter server proxy wrapper for local [Tensorflow Playground](https://github.com/tensorflow/playground) application
 
 
