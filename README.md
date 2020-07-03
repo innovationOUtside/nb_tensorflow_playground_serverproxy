@@ -8,4 +8,7 @@ The extension maps the [original *Tensorflow Playground* code](https://github.co
 
 ![](.images/tf_playground_nbserverproxy.png)
 
-See also: [`nb_tensorspace_server_proxy`](https://github.com/innovationOUtside/nb_tensorspace_server_proxy) which does a similar thing for a couple of smaller netwroks in the *TensorSpace Playground*.
+See also:
+
+- [`nb_tensorspace_server_proxy`](https://github.com/innovationOUtside/nb_tensorspace_server_proxy) which does a similar thing for a couple of smaller networks in the *TensorSpace Playground*.
+- [Hand-Written-Digit-Recognition](https://github.com/ouseful-PR/Hand-Written-Digit-Recognition), a simple jupyter-server-proxy wrapper for a small MNIST handwritten digit recognition task.
