@@ -4,11 +4,10 @@ from setuptools import setup
 setup(
     name="nb-tensorflow-playground-serverproxy",
     packages= ['nb_tensorflow_playground_serverproxy'],
-    version='0.0.1',
+    version='0.0.2',
     include_package_data=True,
     install_requires=[
-        'jupyter-server-proxy',
-        'notebook'
+        'jupyter-server-proxy'
     ],
     url="https://github.com/innovationOUtside/nb_tensorflow_playground_serverproxy",
     author="Tony Hirst",
